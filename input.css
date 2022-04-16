@@ -24,6 +24,15 @@ body {
     #cta {
         background-image: url("../img/bg-simplify-section-mobile.svg");
     }
+
+    #text {
+        font-size: 1.5rem;
+    }
+
+    #hero-text {
+        font-size: 1.75rem;
+    }
+
 }
 
 .hamburger {

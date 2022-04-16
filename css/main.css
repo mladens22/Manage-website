@@ -764,6 +764,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.font-vietnam {
+  font-family: Be Vietnam Pro, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -807,6 +811,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(227 12% 61% / var(--tw-text-opacity));
 }
 
+.text-brightRed {
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -838,6 +847,18 @@ body {
 
   #cta {
     background-image: url("../img/bg-simplify-section-mobile.svg");
+  }
+
+  #text{
+    font-size: 1.5rem;
+  }
+
+  #hero-text{
+    font-size: 1.75rem;
+  }
+
+  #btn-a{
+    font-size: 4px;
   }
 }
 
